@@ -1,5 +1,5 @@
 # bsd-dots
-Dotfiles for my OpenBSD/FreeBSD desktop using CWM
+Dotfiles for my OpenBSD and FreeBSD desktops using CWM
 
 # Contents
 - config for CWM
@@ -13,7 +13,7 @@ Dotfiles for my OpenBSD/FreeBSD desktop using CWM
 
 # Usage
 - copy dotfiles to respective location at $HOME
-- install X11, cwm, compton, dunst, feh
+- install X11, cwm, compton, dmenu, dunst, feh
 - use some display manager like xenodm
 - place wallpaper as wallpaper.png in $HOME
 - get yourself a nice bar like lemonbar

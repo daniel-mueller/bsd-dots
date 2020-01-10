@@ -1,0 +1,64 @@
+! special
+*.foreground:   #919191
+*.background:   #000000
+*.cursorColor:  #919191
+
+! black
+*.color0:       #303030
+*.color8:       #5e5e5e
+
+! red
+*.color1:       #c10023
+*.color9:       #ff8781
+
+! green
+*.color2:       #a83334
+*.color10:      #ffa095
+
+! yellow
+*.color3:       #b51d2c
+*.color11:      #ff948b
+
+! blue
+*.color4:       #8c4b46
+*.color12:      #feb2aa
+
+! magenta
+*.color5:       #7d534f
+*.color13:      #ebbbb5
+
+! cyan
+*.color6:       #9a413d
+*.color14:      #ffaaa0
+
+! white
+*.color7:       #c6c6c6
+*.color15:      #ffffff
+
+URxvt*termName: rxvt-unicode-256color
+URxvt*loginShell: true
+URxvt*scrollBar: false
+URxvt*secondaryScroll: true
+URxvt*saveLines: 65535
+URxvt*cursorUnderline: false
+URxvt*urgentOnBell: false 
+URxvt*cursorBlink: false
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0000/DDDD
+
+URxvt.font:xft:DejaVu Sans Mono:pixelsize=14
+URxvt.internalBorder:     10
+URxvt*selectToClipboard:  true
+
+URxvt.perl-ext-common:    default,matcher,searchable-scrollback
+URxvt.urlLauncher:        /usr/local/bin/firefox
+
+xscreensaver.fade:        false
+xscreensaver.unfade: false
+
+Xft.autohint: false
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: true
+Xft.antialias: true
+Xft.rgba: rgb

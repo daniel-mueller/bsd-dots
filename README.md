@@ -9,7 +9,7 @@ Dotfiles for my OpenBSD/FreeBSD desktop using CWM
 - config for dunst notification daemon
 - GTK settings to restore to expectable defaults
 - Neovim config
-- .xsession to start cwm, dunst, compton, urxvt terminal daemon, setting wallpaper with feh & some other stuff 
+- .xsession to start cwm, dmenu, dunst, compton, urxvt terminal daemon, setting wallpaper with feh & some other stuff 
 
 # Usage
 - copy dotfiles to respective location at $HOME

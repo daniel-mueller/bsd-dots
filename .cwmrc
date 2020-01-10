@@ -34,8 +34,6 @@ bind-key 4S-l window-move-right-big
 bind-key 4S-Up window-htile
 bind-key 4S-Left window-vtile
 bind-key 4S-Right window-snap-down-right
-bind-key 4-Up "/home/daniel/bin/vol up"
-bind-key 4-Down "/home/daniel/bin/vol down"
 bind-key 4C-r restart
 bind-mouse M-3 window-resize
 bind-mouse M-2 window-lower
@@ -56,10 +54,6 @@ sticky yes
 
 command "           terminal -" "urxvtc -g 100x30"
 command "            firefox -" "firefox"
-command "         night mode -" "sct 2700"
-command "           day mode -" "sct"
 command "               lock -" "xlock -mode pacman & zzz"
 command "            suspend -" "zzz"
 command "               exit -" "pkill cwm"
-command "             reboot -" "doas shutdown -r now"
-command "           poweroff -" "doas shutdown -p now"

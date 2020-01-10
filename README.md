@@ -1,5 +1,5 @@
 # bsd-dots
-Dotfiles for my OpenBSD/FreeBSD desktop using CWM
+Dotfiles for my OpenBSD and FreeBSD desktops using CWM
 
 # Contents
 - config for CWM

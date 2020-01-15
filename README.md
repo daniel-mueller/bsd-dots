@@ -17,3 +17,5 @@ Dotfiles for my OpenBSD and FreeBSD desktops using CWM
 - use some display manager like xenodm
 - place wallpaper as wallpaper.png in $HOME
 - get yourself a nice bar like lemonbar
+
+![alt text](https://raw.githubusercontent.com/daniel-mueller/bsd-dots/master/screenshot.png "Screenshot")

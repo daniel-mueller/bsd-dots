@@ -1,4 +1,4 @@
 #!/bin/ksh
 # vim: et ts=4
-FONT="Source Code Pro Medium:size=8"
-dmenu_run -b -fn "$FONT" -nf "#efefef" -nb "#272727" -sf "#050505" -sb "#3399ff" $@
+FONT="DejaVu Sans Mono:size=10"
+dmenu_run -b -fn "$FONT" -nf "#ebdbb2" -nb "#282828" -sf "#282828" -sb "#458588" $@

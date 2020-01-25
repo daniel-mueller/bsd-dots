@@ -11,13 +11,13 @@ Memory() {
 }
 
 wlanip() {
-  WLANIP=$(ifconfig iwn0 | grep inet | grep iwn0 | awk '{split($2,a,"%")}; {print a[1]}')
+  WLANIP=$(ifconfig iwm0 | grep inet | grep iwm0 | awk '{split($2,a,"%")}; {print a[1]}')
   [[ -n $WLANIP ]] && echo -n " $WLANIP"
 }
 
 wifi() {
-  WIFI=$(ifconfig iwn0 | egrep ieee80211 | awk '{print $8}' | sed 's/\%//' )
-  SSID=$(ifconfig iwn0 | egrep ieee80211 | awk '{print $3}')
+  WIFI=$(ifconfig iwm0 | egrep ieee80211 | awk '{print $8}' | sed 's/\%//' )
+  SSID=$(ifconfig iwm0 | egrep ieee80211 | awk '{print $3}')
   if [ $WIFI -lt 21 ]; then
     echo -n "${SSID} "
   elif [ $WIFI -lt 41 ]; then

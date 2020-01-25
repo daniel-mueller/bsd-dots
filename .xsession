@@ -2,20 +2,24 @@
 export ENV=$HOME/.kshrc
 
 export LANG=de_DE.UTF-8
+export LC_ALL=de_DE.UTF-8
 
 if [ -x /usr/local/bin/dbus-launch -a -z "${DBUS_SESSION_BUS_ADDRESS}" ]; then
   eval `dbus-launch --sh-syntax --exit-with-session`
 fi
 
 xset b off
-xset fp rehash
-fc-cache -v
+#xset fp rehash
+#fc-cache -v
 
-compton &
+#compton &
 dunst &
 urxvtd -q -o -f &
-feh --bg-scale ~/wallpaper.png &
+#feh --bg-scale ~/wallpaper.png &
 xrdb -merge ~/.Xresources &
+~/bin/barstarter &
+
+xsetroot -solid '#282828'
 
 export LC_CTYPE="de_DE.UTF-8"
 
